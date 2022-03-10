@@ -1,0 +1,70 @@
+div#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border: 2px solid black;
+    text-align: center;
+ }
+
+ label {
+    display: block;
+  }
+
+  input {
+      margin: 10px;
+      height: 30px;
+      width: 200px;
+      display: block;
+  }
+
+  button {
+      width:80px;
+      height: 40px;
+      background-color: blue;
+      color: white;
+  }
+
+  #profile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border: 2px solid black;
+  }
+
+  li{
+      list-style: none;
+      margin: 10px;
+  }
+
+  span {
+      padding: 30px;
+  }
+
+  table {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 500px;
+  }
+
+  th {
+      background-color: green;
+      color: white;
+  }
+
+ td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2;}
