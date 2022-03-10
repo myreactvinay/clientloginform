@@ -39,7 +39,7 @@ useEffect(()=>{
         
         <div id="login">   
             <label>Email</label>   
-            <input type="text" placeholder="Enter Email" name="email" required onChange={(e)=>{setEmail(e.target.value);}}/>  
+            <input type="text" placeholder="Enter Email" name="email" required onChange={(e)=>{setEmail(e.target.value);}} autoComplete="off"/>  
             <label>Password</label>   
             <input type="password" placeholder="Enter Password" name="password" required onChange={(e)=>{setPassword(e.target.value);}}/>  
             <button type="submit" onClick={Login}>Submit</button>   
